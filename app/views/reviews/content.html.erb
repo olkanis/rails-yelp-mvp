@@ -1,2 +1,6 @@
 <h1>Reviews#content</h1>
-<p>Find me in app/views/reviews/content.html.erb</p>
+
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <%= f.input :content %>
+  <%= f.submit "add a review", class: "btn btn-primary" %>
+<% end %>
