@@ -25,5 +25,12 @@
   <%= @restaurant.stars %>
 </p>
 
+<div>
+<% @restaurant.reviews.each do |review| %>
+  <%= review.content %>
+  <%= review.rating %>
+<% end %>
+</div>
+
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
