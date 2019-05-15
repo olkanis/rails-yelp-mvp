@@ -13,31 +13,31 @@ restaurants_attributes = [
   {
     name:         'Dish',
     address:      '1 Bound , Arsenal E2 7JE',
-    description:  'Buzzy destination for Indian street food ',
+    category:     'chinese',
     stars:        5
   },
   {
     name:         'Pizza East',
     address:      '56A Shoreditch High St, London E1 6PQ',
-    description:  'Pizzeria with industrial looks, serving rustic pizza and antipasti.',
+    category:     'italian',
     stars:        4
   },
   {
     name:         'Dishoom',
     address:      '7 Boundary St, London E2 7JE',
-    description:  'Buzzy destination for Indian street food in Bombay-style vintage decor.',
+    category:     'belgian',
     stars:        3
   },
   {
     name:         'Sushi',
     address:      '4th Avenue, NY E55',
-    description:  'Best NY sushi shop!.',
+    category:     'japanese',
     stars:        5
   },
   {
     name:         'Mignardises',
     address:      'Boulevard Gal Doe, Lyon 094',
-    description:  'Gastronomic resto .',
+    category:     'french',
     stars:        1
   }
 ]
